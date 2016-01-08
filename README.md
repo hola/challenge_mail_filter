@@ -238,7 +238,6 @@ Place | Name                                | Score | Remark
       | Haim Kom                            |       |
       | happymarmoset                       |       |
       | Hongliang Wang                      |       |
-      | Hongliang Wang                      |       |
       | Ice Kibitzer                        |       |
       | Ido Ran                             |       |
       | Igal Miroshnichenko                 |       |
