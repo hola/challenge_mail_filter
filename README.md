@@ -184,7 +184,6 @@ Place | Name                                | Score | Remark
   113 | Nikita Polevoy                      | 58050 |
       | Adam Yahid                          |       |
       | Aleksandrs Fiļipovs                 |       |
-      | Aleksandrs Fiļipovs                 |       |
       | Alex Netkachov                      |       |
       | Alex Vishnevsky                     |       |
       | Alexander Baygeldin                 |       |
@@ -208,7 +207,6 @@ Place | Name                                | Score | Remark
       | Andrey Solodovnikov                 |       |
       | Anton Ivakin                        |       |
       | Anton Vashurkin                     |       |
-      | Artem Kudryavtsev                   |       |
       | Artem Kudryavtsev                   |       |
       | Arthur Khusaenov                    |       |
       | Arthur Okeke                        |       |
@@ -260,7 +258,6 @@ Place | Name                                | Score | Remark
       | Kirill Yakovlev                     |       |
       | Konstantin Petryaev                 |       |
       | Kwek Jing Yang                      |       |
-      | Kwek Jing Yang                      |       |
       | Lee Elenbaas                        |       |
       | Leonid Kuznetsov                    |       |
       | madshall                            |       |
@@ -296,8 +293,6 @@ Place | Name                                | Score | Remark
       | Sergey Tolok                        |       |
       | Sergii Iakymov                      |       |
       | Sergius Galjuk                      |       |
-      | Sergius Galjuk                      |       |
-      | Serhiy Mitrovtsiy                   |       |
       | Serhiy Mitrovtsiy                   |       |
       | Stepan Pupkin                       |       |
       | taitulism                           |       |
