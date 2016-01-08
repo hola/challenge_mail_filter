@@ -1,0 +1,141 @@
+[
+	{
+		"name": "partial exact match to",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"}
+		},
+		"rules": [
+			{"to": "example", "action": "tag"}
+		],
+		"expectedResult": {
+			"msg1": []
+		}
+	},
+	{
+		"name": "? match to",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"}
+		},
+		"rules": [
+			{"to": "?ill@example.org", "action": "tag"}
+		],
+		"expectedResult": {
+			"msg1": ["tag"]
+		}
+	},
+	{
+		"name": "* match to",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"}
+		},
+		"rules": [
+			{"to": "*@example.org", "action": "tag"}
+		],
+		"expectedResult": {
+			"msg1": ["tag"]
+		}
+	},
+	{
+		"name": "exact match to",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"}
+		},
+		"rules": [
+			{"to": "jill@example.org", "action": "forward to jill@elsewhere.com"}
+		],
+		"expectedResult": {
+			"msg1": ["forward to jill@elsewhere.com"]
+		}
+	},
+	{
+		"name": "sample",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"},
+			"msg2": {"from": "noreply@spam.com", "to": "jill@example.org"},
+			"msg3": {"from": "boss@work.com", "to": "jack@example.com"}
+		},
+		"rules": [
+			{"from": "*@work.com", "action": "tag work"},
+			{"from": "*@spam.com", "action": "tag spam"},
+			{"from": "jack@example.com", "to": "jill@example.org", "action": "folder jack"},
+			{"to": "jill@example.org", "action": "forward to jill@elsewhere.com"}
+		],
+		"expectedResult": {
+			"msg1": ["folder jack", "forward to jill@elsewhere.com"],
+			"msg2": ["tag spam", "forward to jill@elsewhere.com"],
+			"msg3": ["tag work"]
+		}
+	},
+	{
+		"name": "no messages",
+		"validated": true,
+		"messages": {},
+		"rules": [ { "action": "tag" } ],
+		"expectedResult": {}
+	},
+	{
+		"name": "no rules",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"},
+			"msg2": {"from": "noreply@spam.com", "to": "jill@example.org"},
+			"msg3": {"from": "boss@work.com", "to": "jack@example.com"}
+		},
+		"rules": [],
+		"expectedResult": {
+			"msg1": [],
+			"msg2": [],
+			"msg3": []
+		}
+	},
+	{
+		"name": "exact match",
+		"disabled": false,
+		"validated": true,
+		"messages": {
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"},
+			"msg2": {"from": "noreply@spam.com", "to": "jill@example.org"},
+			"msg3": {"from": "boss@work.com", "to": "jack@example.com"}
+		},
+		"rules": [
+			{"from": "boss@work.com", "action": "tag work"},
+			{"to": "jill@example.org", "action": "tag personal"},
+			{"from": "jack@example.com", "to": "jill@example.org", "action": "folder romance"}
+		],
+		"expectedResult": {
+			"msg1": ["tag personal", "folder romance"],
+			"msg2": ["tag personal"],
+			"msg3": ["tag work"]
+		}
+	},
+	{
+		"name": "contains",
+		"disabled":false,
+		"validated": true,
+		"messages":{
+			"msg1": {"from": "jack@example.com", "to": "jill@example.org"},
+			"msg2": {"from": "noreply@spam.com", "to": "jill@example.org"},
+			"msg3": {"from": "boss@work.com", "to": "jack@example.com"}
+		},
+		"rules": [
+			{"from": "*work*", "action": "work"},
+			{"to": "*example*", "action": "sample"}
+		],
+		"expectedResult": {
+			"msg1": ["sample"],
+			"msg2": ["sample"],
+			"msg3": ["work", "sample"]
+		}
+	}
+]

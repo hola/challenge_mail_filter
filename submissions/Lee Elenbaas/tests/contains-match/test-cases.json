@@ -1,0 +1,37 @@
+[
+	{
+		"name": "empty",
+		"disabled": false,
+		"pattern": "*",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "contained",
+		"disabled": false,
+		"pattern": "*mpl*",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "contained double *",
+		"disabled": false,
+		"pattern": "**mpl**",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "no match",
+		"disabled": false,
+		"pattern": "*mpl*",
+		"text": "samrple",
+		"expected": false
+	},
+	{
+		"name": "too large for match",
+		"disabled": false,
+		"pattern": "*mysample*",
+		"text": "sample",
+		"expected": false
+	}
+]

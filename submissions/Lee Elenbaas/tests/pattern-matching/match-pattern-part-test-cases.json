@@ -1,0 +1,118 @@
+{
+	"matchAt":[
+		{
+			"name": "exact match",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "test",
+			"index": 0,
+			"expectedResult": true
+		},
+		{
+			"name": "exact match failed",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "text",
+			"index": 0,
+			"expectedResult": false
+		},
+		{
+			"name": "exact match fail due to index",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "textt",
+			"index": 3,
+			"expectedResult": false
+		},
+		{
+			"name": "exact match with index",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestt",
+			"index": 3,
+			"expectedResult": true
+		},
+		{
+			"name": "exact match with index",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestt",
+			"index": 3,
+			"expectedResult": true
+		},
+		{
+			"name": "patch with two parts - match",
+			"part": "te?t",
+			"leaveSpaceAfter": 0,
+			"text": "test",
+			"index": 0,
+			"expectedResult": true
+		},
+		{
+			"name": "patch with two parts - no match",
+			"part": "te?t",
+			"leaveSpaceAfter": 0,
+			"text": "tesst",
+			"index": 0,
+			"expectedResult": false
+		},
+		{
+			"name": "patch with 5 parts - match",
+			"part": "t?s??n?!",
+			"leaveSpaceAfter": 0,
+			"text": "testing!",
+			"index": 0,
+			"expectedResult": true
+		}
+	],
+	"matchFrom":[
+		{
+			"name": "exact match",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestt",
+			"index": 0,
+			"expectedResult": 3
+		},
+		{
+			"name": "patch with 5 parts - match",
+			"part": "t?s??n?!",
+			"leaveSpaceAfter": 0,
+			"text": "ttttesting!",
+			"index": 0,
+			"expectedResult": 3
+		},
+		{
+			"name": "patch with two parts - match",
+			"part": "te?t",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestttt",
+			"index": 0,
+			"expectedResult": 3
+		},
+		{
+			"name": "patch with two parts - no match",
+			"part": "te?t",
+			"leaveSpaceAfter": 0,
+			"text": "ttttesstttt",
+			"index": 0,
+			"expectedResult": -1
+		},
+		{
+			"name": "exact match after index",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestt",
+			"index": 4,
+			"expectedResult": -1
+		},
+		{
+			"name": "exact match after index",
+			"part": "test",
+			"leaveSpaceAfter": 0,
+			"text": "ttttestt",
+			"index": 4,
+			"expectedResult": -1
+		}
+	]
+}

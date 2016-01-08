@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Linear matching",
+		"validated": true,
+		"rulesTemplates": {
+			"{{index}}": { 
+				"from": "test{{index}}@test.com",
+				"to": "test{{index}}@test.com",
+				"action": "{{index}}"
+			}
+		},
+		"messageTemplates": {
+			"msg1_{{index}}": {
+				"from": "test{{index}}@test.com",
+				"to": "test{{index}}@test.com",
+				"expectedActions": [ "{{index}}" ]
+			},
+			"msg2_{{index}}": {
+				"from": "test{{index}}@test.com",
+				"to": "test@test.com",
+				"expectedActions": [ ]
+			}
+		}
+	},
+	{
+		"name": "even/odd matching",
+		"validated": true,
+		"rulesTemplates": {
+			"0": { 
+				"from": "test0@test.com",
+				"to": "test0@test.com",
+				"action": "0"
+			},
+			"1": { 
+				"from": "test1@test.com",
+				"to": "test1@test.com",
+				"action": "1"
+			}
+		},
+		"messageTemplates": {
+			"msg_{{index}}": {
+				"from": "test{{index%2}}@test.com",
+				"to": "test{{index%2}}@test.com",
+				"expectedActions": [ "{{index%2}}" ]
+			}
+		}
+	}
+]

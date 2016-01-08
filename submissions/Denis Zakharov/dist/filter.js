@@ -1,0 +1,1 @@
+var isPassed=function(e,r){var t="*",n="?",a="^.+",o="^.",s=new RegExp((r.from||t).replace(t,a).replace(n,o)),c=new RegExp((r.to||t).replace(t,a).replace(n,o));return c.test(e.to)&&s.test(e.from)};module.exports.filter=function(e,r){var t={};for(var n in e)e.hasOwnProperty(n)&&(t[n]=[],r.forEach(function(r){isPassed(e[n],r)&&(r.action?t[n].push(r.action):null)}));return t};

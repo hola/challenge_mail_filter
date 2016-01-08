@@ -1,0 +1,26 @@
+{
+  "name": "mail-filter",
+  "version": "0.0.1",
+  "description": "mail-filter implementation for hola 2015 challenge",
+  "homepage": "https://bitbucket.org/lee_elenbaas/hola-2015-challenge-mail-filter",
+  "license" : "BSD-3-Clause",
+  "author": {
+    "name": "Lee Elenbaas",
+    "email": "lee@elenbaas.org.il"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitbucket:lee_elenbaas/hola-2015-challenge-mail-filter"
+  },
+  "files": [
+	"mail-filter.js", 
+	"README.md", 
+	"package.json"
+  ],
+  "engines" : { 
+	  "node" : "~5.2.0" 
+  },
+  "devDependencies": {
+    "jasmine": "~2.4.1"
+  }
+}

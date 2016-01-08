@@ -1,0 +1,20 @@
+[
+	{
+		"name": "empty match",
+		"pattern": "",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "all match",
+		"pattern": "*",
+		"text": "ssample",
+		"expected": true
+	},
+	{
+		"name": "multi match",
+		"pattern": "****",
+		"text": "ssample",
+		"expected": true
+	}
+]

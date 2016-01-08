@@ -1,0 +1,30 @@
+[
+	{
+		"name": "empty",
+		"disabled": false,
+		"pattern": "*",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "starts with",
+		"disabled": false,
+		"pattern": "samp*",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "double *",
+		"disabled": false,
+		"pattern": "samp**",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "no match",
+		"disabled": false,
+		"pattern": "samp*",
+		"text": "samrple",
+		"expected": false
+	}
+]

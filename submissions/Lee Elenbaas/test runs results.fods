@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:creation-date>2015-12-19T19:29:02.152889000</meta:creation-date><dc:date>2015-12-19T21:29:42.373572000</dc:date><meta:editing-duration>PT16M36S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/4.4.0.3$MacOSX_X86_64 LibreOffice_project/de093506bcdc5fafd9023ee680b8c60e3e0645d7</meta:generator><meta:document-statistic meta:table-count="5" meta:cell-count="357" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">2257</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">451</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="complex">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="ends-with">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="exact-match">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="null-match">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="starts-with-match">
+       <config:config-item config:name="CursorPositionX" config:type="int">6</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">36</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">6</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">22</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">starts-with-match</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">964</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Menlo-Regular" svg:font-family="Menlo-Regular"/>
+  <style:font-face style:name="F" svg:font-family="" style:font-family-generic="roman"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial Unicode MS" svg:font-family="&apos;Arial Unicode MS&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="36pt"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="US" style:font-name-asian="Tahoma" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Tahoma" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N104P0" style:volatile="true">
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N104">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N104P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:text-properties style:font-name-asian="Arial Unicode MS" style:font-family-asian="&apos;Arial Unicode MS&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-name-complex="Arial Unicode MS" style:font-family-complex="&apos;Arial Unicode MS&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N104"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="64.01pt"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="85.69pt"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="37.5pt"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="99.44pt"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="105.05pt"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="60.04pt"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="73.81pt"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="46.91pt"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="66.3pt"/>
+  </style:style>
+  <style:style style:name="co10" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="397.76pt"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="12.81pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="13.8pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="15.14pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Menlo-Regular" fo:font-size="11pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="11pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Menlo-Regular" fo:font-size="11pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="11pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="21.26pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:margin-bottom="7.09pt"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="21.26pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:margin-top="7.09pt"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="21.26pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:margin-bottom="7.09pt" fo:border="2.49pt solid #000000" fo:padding="0.51pt" fo:background-color="#c0c0c0"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="21.26pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:margin-top="7.09pt" fo:border="2.49pt solid #000000" fo:padding="0.51pt" fo:background-color="#c0c0c0"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:color="#2fb41d" style:font-name="Menlo-Regular" fo:font-size="11pt" style:font-name-asian="Menlo-Regular" style:font-name-complex="Menlo-Regular" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties style:font-name="Menlo-Regular" fo:font-size="11pt" style:font-name-asian="Menlo-Regular" style:font-name-complex="Menlo-Regular" style:font-size-asian="11pt" style:font-size-complex="11pt" fo:color="#000000"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2015-12-19">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:table table:name="null-match" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="exact-match" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="starts-with-match" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="ce2"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="Default"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>case</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>nodejs</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>machine</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>method</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Stage</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Total Time(ms)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Trials</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>avg time</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>Raw result</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="240.727" calcext:value-type="float">
+      <text:p>240.727</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G3]/[.H3]" office:value-type="float" office:value="0.000240727" calcext:value-type="float">
+      <text:p>0.000240727</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) empty preparation: 240.727ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5719.001" calcext:value-type="float">
+      <text:p>5719.001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G4]/[.H4]" office:value-type="float" office:value="0.005719001" calcext:value-type="float">
+      <text:p>0.005719001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) empty execution: 5719.001ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="546.408" calcext:value-type="float">
+      <text:p>546.408</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G5]/[.H5]" office:value-type="float" office:value="0.000546408" calcext:value-type="float">
+      <text:p>0.000546408</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(string) ends with preparation: 246.408ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5942.987" calcext:value-type="float">
+      <text:p>5942.987</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G6]/[.H6]" office:value-type="float" office:value="0.005942987" calcext:value-type="float">
+      <text:p>0.005942987</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) ends with execution: 5942.987ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="274.248" calcext:value-type="float">
+      <text:p>274.248</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G7]/[.H7]" office:value-type="float" office:value="0.000274248" calcext:value-type="float">
+      <text:p>0.000274248</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(string) double * preparation: 274.248ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6015.196" calcext:value-type="float">
+      <text:p>6015.196</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G8]/[.H8]" office:value-type="float" office:value="0.006015196" calcext:value-type="float">
+      <text:p>0.006015196</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) double * execution: 6015.196ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="301.425" calcext:value-type="float">
+      <text:p>301.425</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G9]/[.H9]" office:value-type="float" office:value="0.000301425" calcext:value-type="float">
+      <text:p>0.000301425</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(string) no match preparation: 301.425ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5951.467" calcext:value-type="float">
+      <text:p>5951.467</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G10]/[.H10]" office:value-type="float" office:value="0.005951467" calcext:value-type="float">
+      <text:p>0.005951467</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) no match execution: 5951.467ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="543.23" calcext:value-type="float">
+      <text:p>543.23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G11]/[.H11]" office:value-type="float" office:value="0.00054323" calcext:value-type="float">
+      <text:p>0.00054323</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(RegExp) empty preparation: 543.230ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5221.62" calcext:value-type="float">
+      <text:p>5221.62</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G12]/[.H12]" office:value-type="float" office:value="0.00522162" calcext:value-type="float">
+      <text:p>0.00522162</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) empty execution: 5221.620ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="627.752" calcext:value-type="float">
+      <text:p>627.752</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G13]/[.H13]" office:value-type="float" office:value="0.000627752" calcext:value-type="float">
+      <text:p>0.000627752</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(RegExp) ends with preparation: 627.752ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5150.127" calcext:value-type="float">
+      <text:p>5150.127</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G14]/[.H14]" office:value-type="float" office:value="0.005150127" calcext:value-type="float">
+      <text:p>0.005150127</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) ends with execution: 5150.127ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="854.045" calcext:value-type="float">
+      <text:p>854.045</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G15]/[.H15]" office:value-type="float" office:value="0.000854045" calcext:value-type="float">
+      <text:p>0.000854045</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(RegExp) double * preparation: 854.045ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5635.652" calcext:value-type="float">
+      <text:p>5635.652</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G16]/[.H16]" office:value-type="float" office:value="0.005635652" calcext:value-type="float">
+      <text:p>0.005635652</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) double * execution: 5635.652ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="590.53" calcext:value-type="float">
+      <text:p>590.53</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G17]/[.H17]" office:value-type="float" office:value="0.00059053" calcext:value-type="float">
+      <text:p>0.00059053</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using string.match(RegExp) no match preparation: 590.530ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(RegExp)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5354.005" calcext:value-type="float">
+      <text:p>5354.005</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G18]/[.H18]" office:value-type="float" office:value="0.005354005" calcext:value-type="float">
+      <text:p>0.005354005</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) no match execution: 5354.005ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="522.772" calcext:value-type="float">
+      <text:p>522.772</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G19]/[.H19]" office:value-type="float" office:value="0.000522772" calcext:value-type="float">
+      <text:p>0.000522772</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using regex.test empty preparation: 522.772ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5708.104" calcext:value-type="float">
+      <text:p>5708.104</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G20]/[.H20]" office:value-type="float" office:value="0.005708104" calcext:value-type="float">
+      <text:p>0.005708104</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test empty execution: 5708.104ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="711.417" calcext:value-type="float">
+      <text:p>711.417</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G21]/[.H21]" office:value-type="float" office:value="0.000711417" calcext:value-type="float">
+      <text:p>0.000711417</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using regex.test ends with preparation: 711.417ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4989.931" calcext:value-type="float">
+      <text:p>4989.931</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G22]/[.H22]" office:value-type="float" office:value="0.004989931" calcext:value-type="float">
+      <text:p>0.004989931</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test ends with execution: 4989.931ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="676.729" calcext:value-type="float">
+      <text:p>676.729</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G23]/[.H23]" office:value-type="float" office:value="0.000676729" calcext:value-type="float">
+      <text:p>0.000676729</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using regex.test double * preparation: 676.729ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6826.116" calcext:value-type="float">
+      <text:p>6826.116</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G24]/[.H24]" office:value-type="float" office:value="0.006826116" calcext:value-type="float">
+      <text:p>0.006826116</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test double * execution: 6826.116ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="553.648" calcext:value-type="float">
+      <text:p>553.648</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G25]/[.H25]" office:value-type="float" office:value="0.000553648" calcext:value-type="float">
+      <text:p>0.000553648</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using regex.test no match preparation: 553.648ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>regex.test</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6680.573" calcext:value-type="float">
+      <text:p>6680.573</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G26]/[.H26]" office:value-type="float" office:value="0.006680573" calcext:value-type="float">
+      <text:p>0.006680573</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test no match execution: 6680.573ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="711.532" calcext:value-type="float">
+      <text:p>711.532</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G27]/[.H27]" office:value-type="float" office:value="0.000711532" calcext:value-type="float">
+      <text:p>0.000711532</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using Pattern empty preparation: 711.532ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="19573.4" calcext:value-type="float">
+      <text:p>19573.4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G28]/[.H28]" office:value-type="float" office:value="0.0195734" calcext:value-type="float">
+      <text:p>0.0195734</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern empty execution: 19573.400ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1302.559" calcext:value-type="float">
+      <text:p>1302.559</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G29]/[.H29]" office:value-type="float" office:value="0.001302559" calcext:value-type="float">
+      <text:p>0.001302559</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using Pattern ends with preparation: 1302.559ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="19496.656" calcext:value-type="float">
+      <text:p>19496.656</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G30]/[.H30]" office:value-type="float" office:value="0.019496656" calcext:value-type="float">
+      <text:p>0.019496656</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern ends with execution: 19496.656ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1330.409" calcext:value-type="float">
+      <text:p>1330.409</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G31]/[.H31]" office:value-type="float" office:value="0.001330409" calcext:value-type="float">
+      <text:p>0.001330409</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using Pattern double * preparation: 1330.409ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18472.178" calcext:value-type="float">
+      <text:p>18472.178</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G32]/[.H32]" office:value-type="float" office:value="0.018472178" calcext:value-type="float">
+      <text:p>0.018472178</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern double * execution: 18472.178ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1059.144" calcext:value-type="float">
+      <text:p>1059.144</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G33]/[.H33]" office:value-type="float" office:value="0.001059144" calcext:value-type="float">
+      <text:p>0.001059144</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using Pattern no match preparation: 1059.144ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pattern</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Execution</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="16116.755" calcext:value-type="float">
+      <text:p>16116.755</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G34]/[.H34]" office:value-type="float" office:value="0.016116755" calcext:value-type="float">
+      <text:p>0.016116755</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern no match execution: 16116.755ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>for..charAt</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="51.344" calcext:value-type="float">
+      <text:p>51.344</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G35]/[.H35]" office:value-type="float" office:value="0.000051344" calcext:value-type="float">
+      <text:p>0.000051344</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match using for..charAt empty preparation: 51.344ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="Default"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ends-with-match</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>5.2.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>mac book pro (work)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string.match(string)</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Preparation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="235.953" calcext:value-type="float">
+      <text:p>235.953</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1000000" calcext:value-type="float">
+      <text:p>1000000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:formula="of:=[.G37]/[.H37]" office:value-type="float" office:value="0.000235953" calcext:value-type="float">
+      <text:p>0.000235953</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) empty preparation: 235.953ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) empty execution: 6131.008ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(string)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 300.023ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) ends with execution: 6123.175ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(string)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">double *</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 311.036ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) double * execution: 6575.603ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(string)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">no match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 333.262ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(string) no match execution: 6604.114ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(RegExp)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">empty</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 526.312ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) empty execution: 5517.400ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(RegExp)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 590.891ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) ends with execution: 5414.137ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(RegExp)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">double *</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 699.242ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) double * execution: 6010.485ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">string.match(RegExp)</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">no match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 600.788ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using string.match(RegExp) no match execution: 5599.482ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">regex.test</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">empty</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 504.025ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test empty execution: 6340.448ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">regex.test</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 553.496ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test ends with execution: 5416.671ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">regex.test</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">double *</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 665.125ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test double * execution: 6465.017ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">regex.test</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">no match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 677.724ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using regex.test no match execution: 6663.891ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">Pattern</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">empty</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 720.559ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern empty execution: 21960.741ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">Pattern</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 908.967ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern ends with execution: 20360.957ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">Pattern</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">double *</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 1175.347ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern double * execution: 15901.985ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">Pattern</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">no match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 861.187ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using Pattern no match execution: 17050.659ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">for..charAt</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">empty</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 58.563ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using for..charAt empty execution: 19632.938ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">for..charAt</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 52.408ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using for..charAt ends with execution: 31510.898ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">for..charAt</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">double *</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 814.707ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using for..charAt double * execution: 43164.130ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">for..charAt</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">no match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 1948.962ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using for..charAt no match execution: 52116.747ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">endsWith</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">empty</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 291.229ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>starts-with-match using endsWith empty execution: 61971.797ms</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">.</text:span><text:span text:style-name="T2">starts-with-match</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">using</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">endsWith</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">ends with</text:span><text:span text:style-name="T2"></text:span><text:span text:style-name="T2">preparation: 3037.562ms</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="ends-with" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="complex" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

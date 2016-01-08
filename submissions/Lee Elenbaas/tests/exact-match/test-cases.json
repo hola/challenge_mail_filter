@@ -1,0 +1,14 @@
+[
+	{
+		"name": "match",
+		"pattern": "sample",
+		"text": "sample",
+		"expected": true
+	},
+	{
+		"name": "substring",
+		"pattern": "sample",
+		"text": "ssample",
+		"expected": false
+	}
+]

@@ -1,0 +1,306 @@
+[
+
+
+
+
+{
+  "messages": {
+  },
+  "rules": [
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "action": "a1" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "action": "a1" },
+    { "action": "a2" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "from": "igor@yandex.ru", "action": "a1" },
+    { "to": "misha@gmail.com", "action": "a2" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "from": "igor@yandex.ru", "to": "x", "action": "a1" },
+    { "from": "x", "to": "misha@gmail.com", "action": "a2" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "from": "*@yandex.ru", "to": "x", "action": "a1" },
+    { "from": "x", "to": "*@gmail.com", "action": "a2" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "igor@yandex.ru", "to": "misha@gmail.com" },
+    "msg2": { "from": "igor@yandex.ru", "to": "misha@gmail.com" }
+  },
+  "rules": [
+    { "from": "*@yandex.ru", "action": "a1" },
+    { "to": "*@gmail.com", "action": "a2" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "jack@example.com", "to": "jill@example.com" }
+  },
+  "rules": [
+    { "from": "*@work.com",                   "action": "a0" },
+    { "from": "*@spam.com",                   "action": "a1" },
+    { "from": "*@example.com",                "action": "a2" },
+    {                                         "action": "a3" },
+    { "from": "j*@example.com",               "action": "a4" },
+    { "from": "n*@example.com",               "action": "a5" },
+    {                                         "action": "a6" },
+    { "from": "*j*@example.com",   "to": "*", "action": "a7" },
+    { "from": "*n*@example.com",   "to": "?", "action": "a8" },
+    { "from": "*",                 "to": "a", "action": "a9" }
+  ]
+},
+
+
+
+
+{
+  "messages": {
+    "msg2921": {
+      "from": "Akeem40@hotmail.com",
+      "to": "May69@gmail.com"
+    }
+  },
+  "rules": [
+    {
+      "from": "*",
+      "to": "May69@gma*l.c?m",
+      "action": "action194"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "msg2921": {
+      "from": "Akeem40@hotmail.com",
+      "to": "bombombom"
+    }
+  },
+  "rules": [
+    {
+      "from": "*",
+      "to": "bambamb?m",
+      "action": "action194"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "msg2921": {
+      "from": "Akeem40@hotmail.com",
+      "to": "mamamia"
+    }
+  },
+  "rules": [
+    {
+      "from": "*",
+      "to": "*m?amamaika",
+      "action": "action194"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "msg2921": {
+      "from": "Akeem40@hotmail.com",
+      "to": "mamamia"
+    }
+  },
+  "rules": [
+    {
+      "from": "*",
+      "to": "*m?mamia",
+      "action": "action194"
+    }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "kavichka1": { "from": "eto \" kavychka", "to": "any" }
+  },
+  "rules": [
+    { "from": "eto ? kavychka", "action": "kavichka1" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "kavichka2": { "from": "eto \" kavychka", "to": "any" }
+  },
+  "rules": [
+    { "from": "eto ?? kavychka", "action": "kavichka2" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "kavichka3": { "from": "eto \\\"\\ kavychka", "to": "any" }
+  },
+  "rules": [
+    { "from": "eto ??? kavychka", "action": "kavichka3" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "kavichka4": { "from": "eto \\\"\\ kavychka", "to": "any" }
+  },
+  "rules": [
+    { "from": "eto ???? kavychka", "action": "kavichka4" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "shitalka": { "from": "na_zoXotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotoX_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krXlce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylcX_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_siXeli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sidelX_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_misXki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gXmmi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_Xom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_Xerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerrX_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skXugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugX_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_maXdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdaX_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_X_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utXnka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenkX_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_Xodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyXshey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashXy_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_Xudet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budXt_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_Xonka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponXa_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_pXnka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budeX_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bXdet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyasheX_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyaXhey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vXdyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenXa_a_vodyashey_budet_ponka", "to": "any" }
+  },
+  "rules": [
+    { "from": "na_zo*otom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zoloto*_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_kr*lce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylc*_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_si*eli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sidel*_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mis*ki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_g*mmi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_*om_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_*erry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerr*_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_sk*ugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrug*_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_ma*dak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makda*_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_*_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_ut*nka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenk*_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_*odyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vody*shey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyash*y_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_*udet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bud*t_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_*onka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_pon*a_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_p*nka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bude*_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_b*det_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashe*_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodya*hey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_v*dyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_uten*a_a_vodyashey_budet_ponka", "action": "ponka!" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "bad_shitalka": { "from": "NA_zoXotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotoX_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krXlce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylcX_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_siXeli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sidelX_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_misXki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gXmmi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_Xom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_Xerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerrX_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skXugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugX_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_maXdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdaX_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_X_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utXnka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenkX_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_Xodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyXshey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashXy_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_Xudet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budXt_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_Xonka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponXa_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_pXnka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budeX_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bXdet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyasheX_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyaXhey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vXdyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenXa_a_vodyashey_budet_ponka", "to": "any" }
+  },
+  "rules": [
+    { "from": "na_zo*otom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zoloto*_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_kr*lce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylc*_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_si*eli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sidel*_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mis*ki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_g*mmi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_*om_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_*erry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerr*_skrugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_sk*ugj_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrug*_makdak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_ma*dak_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makda*_i_3_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_*_utenka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_ut*nka_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenk*_a_vodyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_*odyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vody*shey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyash*y_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_*udet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bud*t_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_*onka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_pon*a_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_budet_p*nka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_bude*_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashey_b*det_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodyashe*_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_vodya*hey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_utenka_a_v*dyashey_budet_ponka_na_zolotom_krylce_sideli_mishki_gammi_tom_i_jerry_skrugj_makdak_i_3_uten*a_a_vodyashey_budet_ponka", "action": "ponka!" }
+  ]
+},
+
+
+
+
+
+{
+  "messages": {
+    "msg1": { "from": "jack@example.com", "to": "jill@example.org" },
+    "msg2": { "to": "jill@example.org", "from": "noreply@spam.com" },
+    "msg3": { "from": "boss@work.com", "to": "jack@example.com" }
+  },
+  "rules": [
+    { "from": "*@work.com", "action": "tag work" },
+    { "from": "*@spam.com", "action": "tag spam" },
+    { "from": "jack@example.com", "to": "jill@example.org", "action": "folder jack" },
+    { "to": "jill@example.org", "action": "forward to jill@elsewhere.com" }
+  ]
+}
+
+
+
+
+]

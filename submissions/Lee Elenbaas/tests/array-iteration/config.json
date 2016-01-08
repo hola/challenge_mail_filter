@@ -1,0 +1,5 @@
+{
+	"iterationRepeats": 1000,
+	"numberOfValues": 1000,
+	"valuePrefix": "val"
+}

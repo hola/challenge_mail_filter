@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "deep-diff: 0.3.3",
+    "lie: 3.0.5"
+  ]
+}

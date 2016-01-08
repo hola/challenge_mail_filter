@@ -1,0 +1,80 @@
+[
+	{
+		"name": "exact match - match",
+		"pattern": "test",
+		"text": "test",
+		"expectedResult": true
+	},
+	{
+		"name": "exact match - mismatch",
+		"pattern": "test",
+		"text": "text",
+		"expectedResult": false
+	},
+	{
+		"name": "single part with ? - match",
+		"pattern": "te?t",
+		"text": "text",
+		"expectedResult": true
+	},
+	{
+		"name": "single part with ? - mismatch",
+		"pattern": "te?t",
+		"text": "textt",
+		"expectedResult": false
+	},
+	{
+		"name": "two-part - match",
+		"pattern": "t*t",
+		"text": "textt",
+		"expectedResult": true
+	},
+	{
+		"name": "two-part - mismatch",
+		"pattern": "t*t",
+		"text": "texttr",
+		"expectedResult": false
+	},
+	{
+		"name": "start with - match",
+		"pattern": "tex*",
+		"text": "texttr",
+		"expectedResult": true
+	},
+	{
+		"name": "start with - mismatch",
+		"pattern": "tex*",
+		"text": "tetxttr",
+		"expectedResult": false
+	},
+	{
+		"name": "ends with - match",
+		"pattern": "*xt",
+		"text": "tetxt",
+		"expectedResult": true
+	},
+	{
+		"name": "ends with - mismatch",
+		"pattern": "*xt",
+		"text": "tetxtx",
+		"expectedResult": false
+	},
+	{
+		"name": "double ** - match",
+		"pattern": "t**t",
+		"text": "tetxt",
+		"expectedResult": true
+	},
+	{
+		"name": "multiple parts - mismatch",
+		"pattern": "the * jump * the *",
+		"text": "the fox jumped over the hen",
+		"expectedResult": false
+	},
+	{
+		"name": "multiple parts - match",
+		"pattern": "the * jump * the *",
+		"text": "the fox jump over the hen",
+		"expectedResult": true
+	}
+]

@@ -1,0 +1,11 @@
+{
+  "name": "hola-challenge-zippoxer",
+  "version": "1.0.0",
+  "description": "A performant mail filter for Hola!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moshe Revah <zippoxer@gmail.com>",
+  "license": "ISC"
+}

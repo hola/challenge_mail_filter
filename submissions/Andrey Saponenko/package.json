@@ -1,0 +1,11 @@
+{
+  "name": "HolaChallenjeJsNovember2015",
+  "version": "1.1.0",
+  "description": "Mail filter for Hola ChallengeJs at november 2015",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Saponenko (roguevoo@gmail.com)",
+  "license": "ISC"
+}

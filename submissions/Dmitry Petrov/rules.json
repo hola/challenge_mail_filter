@@ -1,0 +1,6 @@
+[
+  { "action": "mark as read" },
+  { "from": "*s?*", "action": "test 1"},
+  { "from": "*a*r*k*", "to": "*?@*com", "action": "test 2"},
+  { "from": "*a?b*n*", "to": "????????@*com", "action": "test 3"}
+]

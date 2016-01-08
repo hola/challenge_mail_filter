@@ -1,0 +1,17 @@
+{
+  "name": "filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "v8-profiler": "^5.3.2"
+  }
+}

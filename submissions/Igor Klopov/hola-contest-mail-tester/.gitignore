@@ -1,0 +1,13 @@
+node_modules
+/*.exe
+/solve-corasick.js
+/solve-corasick-O3-emter.js
+/solve-corasick-O3.js
+/solve-corasick-Oz-g-emter.js
+/solve-corasick-Oz-g.js
+/*.js.mem
+/*.js.bak*
+/v8.log
+/v8.txt
+/*.bc
+/*.ll

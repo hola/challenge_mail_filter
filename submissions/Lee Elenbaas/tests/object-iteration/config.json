@@ -1,0 +1,6 @@
+{
+	"iterationRepeats": 1000,
+	"numberOfProperties": 1000,
+	"propertyNamePrefix": "prop",
+	"propertyValuePrefix": "val"
+}

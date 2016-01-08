@@ -1,0 +1,76 @@
+[
+	{
+		"name": "empty",
+		"expectedType": "nullMatch"
+	},
+	{
+		"name": "anything",
+		"pattern": "*",
+		"expectedType": "nullMatch"
+	},
+	{
+		"name": "anything multiple *",
+		"pattern": "*****",
+		"expectedType": "nullMatch"
+	},
+	{
+		"name": "exact match",
+		"pattern": "sample",
+		"expectedType": "exactMatch"
+	},
+	{
+		"name": "contained",
+		"pattern": "*mpl*",
+		"expectedType": "contained"
+	},
+	{
+		"name": "contained multiple *",
+		"pattern": "**mpl***",
+		"expectedType": "contained"
+	},
+	{
+		"name": "starts-with",
+		"pattern": "sam*",
+		"expectedType": "starts-with"
+	},
+	{
+		"name": "ends-with",
+		"pattern": "*ple",
+		"expectedType": "ends-with"
+	},
+	{
+		"name": "starts-with ?",
+		"pattern": "sa?*",
+		"expectedType": "starts-with"
+	},
+	{
+		"name": "ends-with ?",
+		"pattern": "*p?e",
+		"expectedType": "ends-with"
+	},
+	{
+		"name": "starts-with multiple *",
+		"pattern": "sam***",
+		"expectedType": "starts-with"
+	},
+	{
+		"name": "ends-with multiple *",
+		"pattern": "**ple",
+		"expectedType": "ends-with"
+	},
+	{
+		"name": "complex",
+		"pattern": "*sam?*",
+		"expectedType": "complex"
+	},
+	{
+		"name": "complex with inside *",
+		"pattern": "sa*le",
+		"expectedType": "complex"
+	},
+	{
+		"name": "complex with inside ?",
+		"pattern": "te?t",
+		"expectedType": "complex"
+	}
+]
