@@ -142,7 +142,7 @@ Place | Name                                | Score | Remark
    72 | Kobi                                |  2931 |
    73 | Alex Ku                             |  3037 |
    74 | Evgeny Lukianchikov                 |  3065 |
-   75 | Nadav Ivgi                          |  3172 | **350 USD special prize**[3]
+   75 | Nadav Ivgi                          |  3172 | **350 USD special prize**
    76 | Alexander Savchuk                   |  3182 |
    77 | Alexey Sadovin                      |  3185 |
    78 | Vitali Falileev                     |  3213 |
