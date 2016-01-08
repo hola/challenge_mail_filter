@@ -6,13 +6,13 @@ The problem statement and detailed rules are available on the contest page linke
 
 ## Statistics
 
-We received a total of 409 submissions from 238 different participants. Only the last submission from each participant, received within the deadline, is published here in the `submissions` directory.
+We received a total of 408 submissions from 237 different participants. Only the last submission from each participant, received within the deadline, is published here in the `submissions` directory.
 
-An additional 6 solutions were submitted after the deadline, and we considered them hors concours (off-contest). These are found in the `extra` directory.
+An additional 7 solutions were submitted either after the deadline or by Hola employees, and we considered them hors concours (off-contest). These are found in the `extra` directory.
 
-64 solutions, or 15% of the total number, were submitted within the last 24 hours before the deadline; 15 of these were submitted within the last hour, and last one of these only 34 seconds before the deadline.
+64 solutions, or 16% of the total number, were submitted within the last 24 hours before the deadline; 15 of these were submitted within the last hour, and last one of these only 34 seconds before the deadline.
 
-115 programs, or 48% of all participating solutions, passed our correctness tests.
+114 programs, or 48% of all participating solutions, passed our correctness tests.
 
 The shortest correct submission is exactly 666 bytes long, while the longest one is 90274 bytes long.
 
@@ -78,110 +78,110 @@ Place | Name                                | Score | Remark
    12 | Pavel Gruba                         |   524 |
    13 | Sergey Petkun                       |   536 |
    14 | Andrey Kostakov                     |   550 |
-   15 | Typealias Nonmutating               |   561 |
-   16 | Vladimir Barbarosh                  |   572 |
-   17 | Ionicman                            |   584 |
-   18 | Sergey Mikhailovich                 |   602 |
-   19 | Andrey Chernykh                     |   617 |
-   20 | Alex Kheben                         |   627 |
-   21 | Maxim Drozdov                       |   629 |
-   22 | Hayk Martirosyan                    |   663 |
-   23 | Maxim Khoruzhko                     |   676 |
-   24 | Dmitry Podgorniy                    |   678 |
-   25 | Oleg Popov                          |   699 |
-   26 | Igor Klopov                         |   717 |
-   27 | Andrew Kashta                       |   807 |
-   28 | Roman Pletnev                       |   817 |
-   29 | Alina Lozhkina                      |   821 |
+      | Typealias Nonmutating               |   561 | Hors concours
+   15 | Vladimir Barbarosh                  |   572 |
+   16 | Ionicman                            |   584 |
+   17 | Sergey Mikhailovich                 |   602 |
+   18 | Andrey Chernykh                     |   617 |
+   19 | Alex Kheben                         |   627 |
+   20 | Maxim Drozdov                       |   629 |
+   21 | Hayk Martirosyan                    |   663 |
+   22 | Maxim Khoruzhko                     |   676 |
+   23 | Dmitry Podgorniy                    |   678 |
+   24 | Oleg Popov                          |   699 |
+   25 | Igor Klopov                         |   717 |
+   26 | Andrew Kashta                       |   807 |
+   27 | Roman Pletnev                       |   817 |
+   28 | Alina Lozhkina                      |   821 |
       | Pavel Kingsep                       |   821 | Hors concours
-   30 | Stas Vasilyev                       |   831 |
+   29 | Stas Vasilyev                       |   831 |
       | Dmitry Rybin                        |   857 | Hors concours
-   31 | Vladislav Nezhutin                  |   878 |
-   32 | Ruslan Koptev                       |   893 |
-   33 | Danila Sukhanov                     |   909 |
-   34 | Alexandr                            |   926 |
-   35 | Alexey Larkov                       |   928 |
-   36 | Alexander Ilyin                     |   947 |
-   37 | Nickolay Savchenko                  |   951 |
-   38 | Ilya Mochalov                       |   953 |
-   39 | Arkadi Klepatch                     |   960 |
-   40 | Serj Karasev                        |  1000 |
-   41 | Yuriy Khabarov                      |  1044 |
-   42 | Vladimir Privalov                   |  1072 |
-   43 | Nikolay Karev                       |  1080 |
-   44 | Valeriy Petlya                      |  1125 |
-   45 | Denis Protasov                      |  1166 |
-   46 | Sergey Savelyev                     |  1175 |
+   30 | Vladislav Nezhutin                  |   878 |
+   31 | Ruslan Koptev                       |   893 |
+   32 | Danila Sukhanov                     |   909 |
+   33 | Alexandr                            |   926 |
+   34 | Alexey Larkov                       |   928 |
+   35 | Alexander Ilyin                     |   947 |
+   36 | Nickolay Savchenko                  |   951 |
+   37 | Ilya Mochalov                       |   953 |
+   38 | Arkadi Klepatch                     |   960 |
+   39 | Serj Karasev                        |  1000 |
+   40 | Yuriy Khabarov                      |  1044 |
+   41 | Vladimir Privalov                   |  1072 |
+   42 | Nikolay Karev                       |  1080 |
+   43 | Valeriy Petlya                      |  1125 |
+   44 | Denis Protasov                      |  1166 |
+   45 | Sergey Savelyev                     |  1175 |
       | Aur Saraf                           |  1184 | Hors concours
-   47 | Aydar Mirzagitov                    |  1246 |
-   48 | Ori Lahav                           |  1258 |
-   49 | KingOfNothing                       |  1308 |
-   50 | Georgy Chebanov                     |  1358 |
-   51 | Denis Kepeshchuk                    |  1433 |
-   52 | Jarek Płocki                        |  1477 |
-   53 | Stanislav Vyshchepan                |  1521 |
+   46 | Aydar Mirzagitov                    |  1246 |
+   47 | Ori Lahav                           |  1258 |
+   48 | KingOfNothing                       |  1308 |
+   49 | Georgy Chebanov                     |  1358 |
+   50 | Denis Kepeshchuk                    |  1433 |
+   51 | Jarek Płocki                        |  1477 |
+   52 | Stanislav Vyshchepan                |  1521 |
       | Evgeny Semyonov                     |  1601 | Needed a fix[3]
-   54 | Taras Ozarko                        |  1634 |
-   55 | Black Knight                        |  1771 |
-   56 | Dmitry Egorov                       |  1844 |
-   57 | Anton Podkuyko                      |  1892 |
-   58 | Sergey Lichack                      |  1935 |
-   59 | Zibx                                |  2014 |
-   60 | Vitalii Petrychuk                   |  2183 |
-   61 | Vasiliy Kostin                      |  2203 |
-   62 | Alexey Chemichev                    |  2327 |
-   63 | Evgenii Kazmiruk                    |  2339 |
-   64 | Pavel Koltyshev                     |  2363 |
-   65 | Aleksey Sergey                      |  2418 |
-   66 | Alexey Pushnikov                    |  2420 |
-   67 | Max Brodin                          |  2616 |
-   68 | serviceman                          |  2771 |
-   69 | Alexander Rusakov                   |  2871 |
-   70 | Ruslan Minukov                      |  2873 |
-   71 | Andrey Grankin                      |  2877 |
-   72 | Kobi                                |  2931 |
-   73 | Alex Ku                             |  3037 |
-   74 | Evgeny Lukianchikov                 |  3065 |
-   75 | Nadav Ivgi                          |  3172 | **350 USD special prize**
-   76 | Alexander Savchuk                   |  3182 |
-   77 | Alexey Sadovin                      |  3185 |
-   78 | Vitali Falileev                     |  3213 |
-   79 | Siroj Matchanov                     |  3214 |
-   80 | Aleksei Murashin                    |  3233 |
-   81 | Ivan Zakharchenko                   |  3465 |
-   82 | Vitaly Dyatlov                      |  3505 |
-   83 | Katerina Pavlenko                   |  3619 |
-   84 | Vyacheslav Bazhinov                 |  3733 |
-   85 | Denis Bezrukov                      |  4118 |
-   86 | Andy5938                            |  4425 |
-   87 | Volodymyr Valkiv                    |  4450 |
-   88 | berrunder                           |  4625 |
-   89 | Konstantin Boyandin                 |  4674 |
-   90 | Oz GabsoZ                           |  4675 |
-   91 | nerv                                |  5174 |
-   92 | Igor Potapov                        |  5813 |
-   93 | Nikolay Shevlyakov                  |  5875 |
-   94 | Sergey Ivanov                       |  6207 |
-   95 | Alexey Kolpakov                     |  6240 |
-   96 | Dan Revah                           |  6258 |
-   97 | Vladimir Osipov                     |  6518 |
-   98 | Vitaliy (vint)                      |  6581 |
-   99 | Vitali Koshtoev                     |  6883 |
-  100 | Pavel Orlov                         |  7725 |
-  101 | Amir Absalyamov                     |  7808 |
-  102 | Vyacheslav Ryabinin                 |  8340 |
-  103 | Daniil Onoshko                      |  8387 |
-  104 | Dmitry Tarasenko                    |  9883 |
-  105 | Andrey Pogoreltsev                  | 10708 |
-  106 | Slava Shklyaev                      | 10742 |
-  107 | Nikita Isaev                        | 13351 |
-  108 | Nikolay Kuchumov                    | 13551 |
-  109 | Kirill Bykov                        | 15773 |
-  110 | Ilya Chervonov                      | 16426 |
-  111 | Igor Vladimirovich                  | 17651 |
-  112 | Shantanu Gupta                      | 21054 |
-  113 | Artem Mitloshuk                     | 22244 |
-  114 | Nikita Polevoy                      | 58050 |
+   53 | Taras Ozarko                        |  1634 |
+   54 | Black Knight                        |  1771 |
+   55 | Dmitry Egorov                       |  1844 |
+   56 | Anton Podkuyko                      |  1892 |
+   57 | Sergey Lichack                      |  1935 |
+   58 | Zibx                                |  2014 |
+   59 | Vitalii Petrychuk                   |  2183 |
+   60 | Vasiliy Kostin                      |  2203 |
+   61 | Alexey Chemichev                    |  2327 |
+   62 | Evgenii Kazmiruk                    |  2339 |
+   63 | Pavel Koltyshev                     |  2363 |
+   64 | Aleksey Sergey                      |  2418 |
+   65 | Alexey Pushnikov                    |  2420 |
+   66 | Max Brodin                          |  2616 |
+   67 | serviceman                          |  2771 |
+   68 | Alexander Rusakov                   |  2871 |
+   69 | Ruslan Minukov                      |  2873 |
+   70 | Andrey Grankin                      |  2877 |
+   71 | Kobi                                |  2931 |
+   72 | Alex Ku                             |  3037 |
+   73 | Evgeny Lukianchikov                 |  3065 |
+   74 | Nadav Ivgi                          |  3172 | **350 USD special prize**
+   75 | Alexander Savchuk                   |  3182 |
+   76 | Alexey Sadovin                      |  3185 |
+   77 | Vitali Falileev                     |  3213 |
+   78 | Siroj Matchanov                     |  3214 |
+   79 | Aleksei Murashin                    |  3233 |
+   80 | Ivan Zakharchenko                   |  3465 |
+   81 | Vitaly Dyatlov                      |  3505 |
+   82 | Katerina Pavlenko                   |  3619 |
+   83 | Vyacheslav Bazhinov                 |  3733 |
+   84 | Denis Bezrukov                      |  4118 |
+   85 | Andy5938                            |  4425 |
+   86 | Volodymyr Valkiv                    |  4450 |
+   87 | berrunder                           |  4625 |
+   88 | Konstantin Boyandin                 |  4674 |
+   89 | Oz GabsoZ                           |  4675 |
+   90 | nerv                                |  5174 |
+   91 | Igor Potapov                        |  5813 |
+   92 | Nikolay Shevlyakov                  |  5875 |
+   93 | Sergey Ivanov                       |  6207 |
+   94 | Alexey Kolpakov                     |  6240 |
+   95 | Dan Revah                           |  6258 |
+   96 | Vladimir Osipov                     |  6518 |
+   97 | Vitaliy (vint)                      |  6581 |
+   98 | Vitali Koshtoev                     |  6883 |
+   99 | Pavel Orlov                         |  7725 |
+  100 | Amir Absalyamov                     |  7808 |
+  101 | Vyacheslav Ryabinin                 |  8340 |
+  102 | Daniil Onoshko                      |  8387 |
+  103 | Dmitry Tarasenko                    |  9883 |
+  104 | Andrey Pogoreltsev                  | 10708 |
+  105 | Slava Shklyaev                      | 10742 |
+  106 | Nikita Isaev                        | 13351 |
+  107 | Nikolay Kuchumov                    | 13551 |
+  108 | Kirill Bykov                        | 15773 |
+  109 | Ilya Chervonov                      | 16426 |
+  110 | Igor Vladimirovich                  | 17651 |
+  111 | Shantanu Gupta                      | 21054 |
+  112 | Artem Mitloshuk                     | 22244 |
+  113 | Nikita Polevoy                      | 58050 |
       | Adam Yahid                          |       |
       | Aleksandrs Fiļipovs                 |       |
       | Aleksandrs Fiļipovs                 |       |
