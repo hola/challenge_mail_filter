@@ -1,4 +1,8 @@
-# Hola JS Challenge Winter 2015 (Mail Filtering Engine): Final Results
+# 10-01-2016 UPDATE: results are not final yet.
+
+We received comments on the mesurement methods, and we are re-checking them. After comments are resolved, the results will be finilized, and prizes will be send.
+
+# Hola JS Challenge Winter 2015 (Mail Filtering Engine): Initial Results
 
 In winter 2015, we held a [programming contest](http://hola.org/challenge_mail_filter). Thanks to all who participated!
 
