@@ -103,7 +103,7 @@ Place | Name                                | Score | Remark
    30 | Vladislav Nezhutin                  |   878 |
    31 | Ruslan Koptev                       |   893 |
    32 | Danila Sukhanov                     |   909 |
-   33 | Alexandr                            |   926 |
+   33 | Alexander Zonov                     |   926 |
    34 | Alexey Larkov                       |   928 |
    35 | Alexander Ilyin                     |   947 |
    36 | Nickolay Savchenko                  |   951 |
