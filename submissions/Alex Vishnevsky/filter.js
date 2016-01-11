@@ -101,7 +101,7 @@ function grammarParse(grammar, str) {
                   bSF=eSF;
                while(grammar[bGL]!="*") {bGL--; bSL--;}
                 temp=grammar.substring(bGL+1,eGL);
-                 while(!cps(temp,str.substring(bSL+1,eSL)))
+                 while(!cps(temp,str.substring(bSL+1,eSL+1)))
                     {
                      if(eSF>bSL )  return false;
                       bSL--; eSL--;
@@ -142,8 +142,7 @@ function filter(messages,rules)
     var msgTo;
     
    
-   var start = Date.now();
-   
+
     for(var msg in messages)
     {
         
