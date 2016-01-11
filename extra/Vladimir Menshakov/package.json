@@ -1,0 +1,8 @@
+{
+  "name": "hola-mail-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "author": "",
+  "license": "ISC"
+}
