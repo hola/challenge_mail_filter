@@ -128,7 +128,7 @@ function is_object(a) {
     return (typeof a == "object");
 }
 
-function filter(messages,rules)
+exports.filter = function (messages,rules)
 {
 
  //   if(!is_object(messages)) return 'messages is not an object';
@@ -178,11 +178,9 @@ function filter(messages,rules)
     
     return result;
     
-}
-
-module.exports = function(msg,rules){
-  return filter(msg,rules)  ;
 };
+
+
 
 
 /*
