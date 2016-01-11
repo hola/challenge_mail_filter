@@ -138,6 +138,26 @@ function main(){
             false);
         test_rule(script, {from: 'z', to: 'z'}, {from: 'a*', to: 'b*'},
             false);
+        test_rule(script, {from: 'zz', to: 'yy'}, {from: '?'},
+            false);
+        test_rule(script, {from: 'foo', to: 'bar'}, {from: '*f*o*'},
+            true);
+        test_rule(script, {from: 'boss@work.com', to: 'jack@example.com'}, {from: '*?work.com'},
+            true);
+        test_rule(script, {from: 'boss@work.com', to: 'jack@example.com'}, {from: '*?wor?.co?'},
+            true);
+        test_rule(script, {from: 'foo', to: 'jill@example.org'}, {from: 'foo*?'},
+            false);
+        test_rule(script, {from: 'fobar', to: 'bar'}, {from: '*o?'},
+            false);
+        test_rule(script, {from: 'foobar', to: 'bar'}, {from: '***'},
+            true);
+        test_rule(script, {from: 'foobar', to: 'bar'}, {from: '?**'},
+            true);
+        test_rule(script, {from: 'foobar', to: 'bar'}, {from: '*?*'},
+            true);
+        test_rule(script, {from: 'foobar', to: 'bar'}, {from: '*ar'},
+            true);
         test_full(script, {}, [], {});
         test_full(script, {
             msg1: {from: 'jack@example.com', to: 'jill@example.org'},
@@ -153,6 +173,23 @@ function main(){
             msg1: ['folder jack', 'forward to jill@elsewhere.com'],
             msg2: ['tag spam', 'forward to jill@elsewhere.com'],
             msg3: ['tag work'],
+        });
+        test_full(script, {
+            msg1: {from: 'jack@example.com', to: 'jill@example.org'},
+            msg2: {from: 'noreply@spam.com', to: 'jill@example.org'},
+            msg3: {from: 'boss@work.com', to: 'jack@example.com'}
+        }, [
+            {from: '*@work.com', action: 'tag work'},
+            {from: '*@spam.com', action: 'tag spam'},
+            {from: '*@spam.com', action: 'tag spam'},
+            {from: '*@spam.com', action: 'tag spam'},
+            {from: '*@spam.com', action: 'tag spam'},
+            {from: 'jack@example.com', to: 'jill@example.org', action: 'folder jack'},
+            {to: 'jill@example.org', action: 'forward to jill@elsewhere.com'}
+        ], {
+            msg1: ['folder jack', 'forward to jill@elsewhere.com'],
+            msg2: ['tag spam', 'tag spam', 'tag spam', 'tag spam', 'forward to jill@elsewhere.com'],
+            msg3: ['tag work']
         });
         console.log('Correctness: OK');
         var performance = test_performance(script);
