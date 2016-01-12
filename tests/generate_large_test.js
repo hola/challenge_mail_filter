@@ -1,11 +1,36 @@
+#!/usr/bin/env node
 // LICENSE_CODE ZON
 'use strict'; /*jslint node:true*/
 var fs = require('fs');
 var random_js = require('random-js');
 var reference = require('./reference.js');
 
-function main(){
-    var random = new random_js(random_js.engines.mt19937().seed(1337));
+var test = {
+    large: {
+        seed: 1337,
+        domains: 20,
+        emails: 50,
+        rules: 100,
+        messages: 100000,
+    },
+    xlarge: {
+        seed: 1337*8,
+        domains: 80,
+        emails: 200,
+        rules: 100,
+        messages: 800000,
+    },
+};
+
+function main(test_name){
+    var opt = test[test_name];
+    if (!opt)
+    {
+        console.log('Usage: generate_large_test.js '
+            +Object.keys(test).join('|'));
+        process.exit(1);
+    }
+    var random = new random_js(random_js.engines.mt19937().seed(opt.seed));
     function fill(length, fn){
         var res = new Array(length);
         for (var i = 0; i<length; i++)
@@ -103,23 +128,23 @@ function main(){
     }
     var tlds = ['com', 'net', 'org', 'co.uk', 'biz'];
     var frequent_localparts = ['post', 'noreply', 'no-reply', 'support'];
-    var frequent_domains = fill(20, generate_domain);
-    var frequent_emails = fill(50, generate_address);
+    var frequent_domains = fill(opt.domains, generate_domain);
+    var frequent_emails = fill(opt.emails, generate_address);
     var personal_emails = [
         'foobarsen@'+frequent_domains[0],
         'foobarsen@'+generate_domain(),
     ];
     var folders = fill(5, generate_label);
     var tags = fill(10, generate_label);
-    var messages = fill_obj(100000, generate_message);
-    var rules = fill(100, generate_rule);
+    var messages = fill_obj(opt.messages, generate_message);
+    var rules = fill(opt.rules, generate_rule);
     var output = reference.filter(messages, rules);
-    fs.writeFileSync('large_input.json', JSON.stringify({
+    fs.writeFileSync(test_name+'_input.json', JSON.stringify({
         messages: messages,
         rules: rules,
     }, null, 4));
-    fs.writeFileSync('large_output.json', JSON.stringify(
+    fs.writeFileSync(test_name+'_output.json', JSON.stringify(
         output, null, 4));
 }
 
-main();
+main(process.argv[2]);
