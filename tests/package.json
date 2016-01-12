@@ -1,5 +1,5 @@
 {
     "dependencies": {
-        "random-js": "1"
+        "random-js": "1.0.8"
     }
 }
