@@ -88,7 +88,7 @@ function test_full(script, messages, rules, expected, contrib_name){
 }
 
 // Thanks to Roman Pletnev for contributing the test suite below
-var contrib = {
+var contrib_pletnev = {
     test_default: {
         messages: {
             msg1: {from: 'jack@example.com', to: 'jill@example.org'},
@@ -965,6 +965,49 @@ var contrib = {
     }
 };
 
+// Thanks to Alexey Alexandrovich for contributing the test suite below
+function contrib_alexandrovich(script){
+    test_rule(script, {from: 'zz', to: 'yy'}, {from: '?'},
+        false);
+    test_rule(script, {from: 'foo', to: 'bar'}, {from: '*f*o*'},
+        true);
+    test_rule(script, {from: 'boss@work.com', to: 'jack@example.com'},
+        {from: '*?work.com'}, true);
+    test_rule(script, {from: 'boss@work.com', to: 'jack@example.com'},
+        {from: '*?wor?.co?'}, true);
+    test_rule(script, {from: 'foo', to: 'jill@example.org'}, {from: 'foo*?'},
+        false);
+    test_rule(script, {from: 'fobar', to: 'bar'}, {from: '*o?'},
+        false);
+    test_rule(script, {from: 'foobar', to: 'bar'}, {from: '***'},
+        true);
+    test_rule(script, {from: 'foobar', to: 'bar'}, {from: '?**'},
+        true);
+    test_rule(script, {from: 'foobar', to: 'bar'}, {from: '*?*'},
+        true);
+    test_rule(script, {from: 'foobar', to: 'bar'}, {from: '*ar'},
+        true);
+    test_full(script, {
+        msg1: {from: 'jack@example.com', to: 'jill@example.org'},
+        msg2: {from: 'noreply@spam.com', to: 'jill@example.org'},
+        msg3: {from: 'boss@work.com', to: 'jack@example.com'}
+    }, [
+        {from: '*@work.com', action: 'tag work'},
+        {from: '*@spam.com', action: 'tag spam'},
+        {from: '*@spam.com', action: 'tag spam'},
+        {from: '*@spam.com', action: 'tag spam'},
+        {from: '*@spam.com', action: 'tag spam'},
+        {from: 'jack@example.com', to: 'jill@example.org',
+            action: 'folder jack'},
+        {to: 'jill@example.org', action: 'forward to jill@elsewhere.com'}
+    ], {
+        msg1: ['folder jack', 'forward to jill@elsewhere.com'],
+        msg2: ['tag spam', 'tag spam', 'tag spam', 'tag spam',
+             'forward to jill@elsewhere.com'],
+        msg3: ['tag work']
+    });
+}
+
 function main(target){
     console.log('Testing correctness:', target);
     try {
@@ -1008,10 +1051,11 @@ function main(target){
             msg2: ['tag spam', 'forward to jill@elsewhere.com'],
             msg3: ['tag work'],
         });
-        for (var i in contrib){
-            test_full(script,
-                contrib[i].messages, contrib[i].rules, contrib[i].expected, i);
+        for (var i in contrib_pletnev){
+            var t = contrib_pletnev[i];
+            test_full(script, t.messages, t.rules, t.expected, i);
         }
+        contrib_alexandrovich(script);
         console.log('Correctness: OK');
     } catch(e){
         process.exit(1);
