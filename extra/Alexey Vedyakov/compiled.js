@@ -56,19 +56,19 @@ function Fabric( description ){
 
 		for ( var i = 0, length = description.length; i < length; i++ ) {
 			rule = {
-				from: (description[i].from && mask(description[i].from.toLowerCase(), true)) || true,
-				to: (description[i].to && mask(description[i].to.toLowerCase(), true)) || true,
+				from: (description[i].from && mask(description[i].from, true)) || true,
+				to: (description[i].to && mask(description[i].to, true)) || true,
 				action: description[i].action,
 				index: i
 			};
 
 			if ( rule.from !== true && description[i].from.length ) {
-				s1 = (description[i].from[0].toLowerCase()).charCodeAt() - 31;
+				s1 = (description[i].from[0]).charCodeAt() - 31;
 			} else {
 				s1 = 0;
 			}
 			if ( rule.to !== true && description[i].to.length ) {
-				s2 = (description[i].to[0].toLowerCase()).charCodeAt() - 31;
+				s2 = (description[i].to[0]).charCodeAt() - 31;
 			} else {
 				s2 = 0;
 			}
@@ -146,9 +146,6 @@ function Fabric( description ){
 	function check( item ){
 		var result = [];
 
-		item.from && ( item.from = item.from.toLowerCase());
-		item.to && ( item.to = item.to.toLowerCase());
-
 		var key = item.from + '\n' + item.to;
 
 		if ( memory[ key ] ) {
@@ -174,7 +171,7 @@ function Fabric( description ){
 			rules.from[ codes.s ] && checkFrom( temp, rules.from[ codes.s ], item );
 			
 			if ( item.from ) {
-				s1 = (item.from[0].toLowerCase()).charCodeAt() - 31;
+				s1 = (item.from[0]).charCodeAt() - 31;
 				s11 = ( s1 << 7 );
 				
 				rules.from[ codes.q ] && checkFrom( temp, rules.from[ codes.q ], item );
@@ -188,7 +185,7 @@ function Fabric( description ){
 			rules.to[ codes.s ] && checkTo( temp, rules.to[ codes.s ], item );
 			
 			if ( item.to ) {
-				s2 = (item.to[0].toLowerCase()).charCodeAt() - 31;
+				s2 = (item.to[0]).charCodeAt() - 31;
 				
 				rules.to[ codes.q ] && checkTo( temp, rules.to[ codes.q ], item );
 				rules.both[ codes.sq ] && checkBoth( temp, rules.both[ codes.sq ], item );
