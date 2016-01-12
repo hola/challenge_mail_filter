@@ -1,6 +1,6 @@
 # 10-01-2016 UPDATE: results are not final yet.
 
-We received comments on the mesurement methods, and we are re-checking them. After comments are resolved, the results will be finilized, and prizes will be send.
+We received comments on the mesurement methods, and we are re-checking them. After comments are resolved, the results will be finilized, and prizes will be sent.
 
 # Hola JS Challenge Winter 2015 (Mail Filtering Engine): Initial Results
 
