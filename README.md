@@ -8,11 +8,11 @@ The problem statement and detailed rules are available on the contest page linke
 
 We received a total of 408 submissions from 237 different participants. Only the last submission from each participant, received within the deadline, is published here in the `submissions` directory.
 
-An additional 11 solutions were submitted either after the deadline or by Hola employees, and we considered them hors concours (off-contest). These are found in the `extra` directory.
+An additional 12 solutions were submitted either after the deadline or by Hola employees, and we considered them hors concours (off-contest). These are found in the `extra` directory.
 
 64 solutions, or 16% of the total number, were submitted within the last 24 hours before the deadline; 15 of these were submitted within the last hour, and last one of these only 34 seconds before the deadline.
 
-92 programs, or 39% of all participating solutions, passed our correctness tests. Also, 7 of the solutions considered hors concours passed.
+92 programs, or 39% of all participating solutions, passed our correctness tests. Also, 8 of the solutions considered hors concours passed.
 
 The shortest correct submission is exactly 666 bytes long, while the longest one is 90274 bytes long.
 
