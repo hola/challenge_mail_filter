@@ -349,6 +349,14 @@ Place | Name                                | Performance | Performance (xlarge)
 
 [3] This solution passed correctness tests but produced wrong output on the performance test. When we looked at its source code, it became apparent why the program was named `volkswagen.js`. The big players are doing it, so it might become an industry standard!
 
+### How to run tests yourself
+
+```
+cd tests
+npm install
+./generate_large_test.js large
+./test_all.js
+```
 ## Stay tuned
 
 More programming challenges to follow!
