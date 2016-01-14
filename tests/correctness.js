@@ -6,8 +6,13 @@ var fs = require('fs');
 var vm = require('vm');
 
 function compile(filename){
-    var text = fs.readFileSync(filename, 'utf8');
-    return new vm.Script(text, {filename: filename});
+    try {
+        var text = fs.readFileSync(filename, 'utf8');
+        return new vm.Script(text, {filename: filename});
+    } catch(e){
+        console.log(e.message);
+        throw e;
+    }
 }
 
 function run_filter(script, messages, rules, expected){
