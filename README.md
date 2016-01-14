@@ -60,7 +60,7 @@ Yet some other submissions did not export the function at all, but merely define
 function filter(messages, rules){ ... }
 ```
 
-Because the rules clearly say “exporting”, we considered such solutions as failing. Nevertheless, we tried to fix each of these solutions and see if they would then pass. Only one solution passed, and was considered hors concours.
+Because the rules clearly say “exporting”, we considered such solutions as failing. Nevertheless, we tried to fix each of these solutions and see if they would then pass. Only one solution passed, and was considered hors concours (see remark [2] in the final standings below).
 
 ### The controversy over the final standings
 
@@ -79,6 +79,276 @@ We also received criticism on some other aspects of our performance testing, whi
 
 ## Final standings
 
-The fixes to the performance testing system are going to lead to dramatic changes in the final standings. We apologize to those who's going to lose their previously announced prize-winning places!
+The performance scores in this table are the best times out of 10 runs, in milliseconds. Solutions for which there isn't a performance score in the table, failed correctness tests or produced wrong results on the performance test. The final standings are ranked by the performance score on the `large` test (100,000 messages); the results of the `xlarge` test are included as well for your information.
 
-The final results table will be published here two days later. Please tell us if you suspect any more flaws in the test system, or if you have critical comments other than those addressed above.
+We are sorry that we had to revise the final standings. Our apologies to the originally announced winners (whose solutions are undoubtedly very good).
+
+Fianlly, we decided to award the 350 USD special prize to the author of the shortest correct submission.
+
+Congratulations to the winners!
+
+Place | Name                                | Performance | Performance (xlarge) | Remark
+-----:|-------------------------------------|------------:|---------------------:|--------------------------
+    1 | Roman Pletnev                       |         231 |                 2549 | **1500 USD prize**
+      | Ouanalao                            |         260 |                 2676 | Hors concours
+    2 | Andrew Kashta                       |         281 |                 2917 | **1000 USD prize**
+      | Pavel Gruba                         |         286 |                 2993 | Hors concours
+    3 | Evgeny Zeyler                       |         292 |                 2351 | **500 USD prize**
+      | Vitaliy (vint)                      |         304 |                 2837 | Hors concours
+    4 | Yuri Kilochek                       |         332 |                 2130 |
+      | Ecma Scripter                       |         333 |                 2711 | Disqualified[1]
+    5 | Alex Kheben                         |         360 |                 2953 |
+    6 | Igor Klopov                         |         367 |                 2745 |
+      | Maksim Razumenko                    |         368 |                 3555 | Hors concours
+    7 | Sergey Golub                        |         375 |                 3891 |
+    8 | Alexander Rusakov                   |         382 |                 3495 |
+    9 | Denis Bezrukov                      |         394 |                 3581 |
+   10 | Vitalii Petrychuk                   |         403 |                 3701 |
+   11 | Ilya Makarov                        |         431 |                 3632 |
+   11 | Max Brodin                          |         431 |                 3772 |
+   12 | R5t4nah6                            |         432 |                 3668 |
+   13 | yuri_c                              |         436 |                 3491 |
+   14 | Denis Kepeshchuk                    |         450 |                 3326 |
+   15 | Hayk Martirosyan                    |         455 |                 3050 |
+   16 | Denis Kreshikhin                    |         467 |                 3247 |
+   17 | Andrey Pogoreltsev                  |         491 |                 3928 |
+   18 | Nikolay Kuchumov                    |         504 |                 4374 |
+      | Evgeny Shiryaev                     |         545 |                 3739 | Hors concours
+   19 | Alexey Kolpakov                     |         556 |                 4262 |
+   20 | Pavel Gruba                         |         576 |                 4794 |
+      | Typealias Nonmutating               |         576 |                 4849 | Hors concours
+   21 | Sergey Ivanov                       |         585 |                 5196 |
+   22 | Vladimir Privalov                   |         589 |                 4252 |
+   23 | Sergey Mikhailovich                 |         593 |                 4562 |
+   24 | Nikolay Karev                       |         597 |                 4387 |
+   25 | Ionicman                            |         612 |                 5177 |
+   26 | Evgenii Kazmiruk                    |         618 |                 5523 |
+   27 | Kobi                                |         625 |                 4670 |
+   28 | Andrey Chernykh                     |         639 |                 6063 |
+   28 | Denys Skychko                       |         639 |                 5352 |
+   29 | Alexey Larkov                       |         645 |                 4636 |
+   30 | KingOfNothing                       |         661 |                 4832 |
+      | Pavel Kingsep                       |         667 |                 5068 | Hors concours
+      | Dmitry Rybin                        |         683 |                 5441 | Hors concours
+   31 | Sergey Petkun                       |         686 |                 4558 |
+   32 | Andy5938                            |         703 |                 5223 |
+   33 | Dmitry Rybin                        |         717 |                 6090 |
+   34 | Vladimir Barbarosh                  |         740 |                 6908 |
+   35 | Maxim Drozdov                       |         748 |                 5346 |
+   36 | Oleg Popov                          |         763 |                 8351 |
+   37 | Aydar Mirzagitov                    |         770 |                 6053 |
+   38 | Dmitry Podgorniy                    |         803 |                 6235 |
+   39 | Pavel Koltyshev                     |         821 |                 6560 |
+   39 | Vasiliy Kostin                      |         821 |                 6098 |
+   40 | Pavel Orlov                         |         843 |                 7954 |
+   41 | Katerina Pavlenko                   |         844 |                 6547 |
+   42 | Igor Potapov                        |         851 |                 7968 |
+   43 | Alexander Ilyin                     |         864 |                 5165 |
+   44 | Alina Lozhkina                      |         887 |                 8187 |
+   45 | Nadav Ivgi                          |         915 |                 7944 | **350 USD special prize**
+   46 | Vladislav Nezhutin                  |         940 |                 8512 |
+   47 | Siroj Matchanov                     |         950 |                 8344 |
+      | Alexey Vedyakov                     |         966 |                 7871 | Hors concours
+   48 | Sergey Savelyev                     |         976 |                 7893 |
+   49 | Daniil Onoshko                      |        1027 |                 9650 |
+   50 | Alexander Zonov                     |        1033 |                 8088 |
+   51 | Nickolay Savchenko                  |        1044 |                 8448 |
+   52 | Ilya Mochalov                       |        1060 |                 8356 |
+   53 | Danila Sukhanov                     |        1062 |                 8846 |
+   54 | Arkadi Klepatch                     |        1063 |                 6682 |
+   55 | Vitaly Dyatlov                      |        1067 |                10053 |
+      | Aur Saraf                           |        1080 |                 8739 | Hors concours
+   56 | Vitali Koshtoev                     |        1085 |                10181 |
+   57 | Yuriy Khabarov                      |        1119 |                 9154 |
+   58 | Aleksey Sergey                      |        1238 |                10601 |
+   59 | Denis Protasov                      |        1270 |                10702 |
+   60 | Serj Karasev                        |        1282 |                 9920 |
+   61 | Valeriy Petlya                      |        1338 |                10628 |
+   62 | Stanislav Vyshchepan                |        1382 |                11828 |
+   63 | Dmitry Egorov                       |        1584 |                13452 |
+      | Vladimir Menshakov                  |        1586 |                 9207 | Hors concours
+   64 | Georgy Chebanov                     |        1591 |                14050 |
+   65 | Ori Lahav                           |        1705 |                10914 |
+   66 | Ruslan Minukov                      |        1774 |                17762 |
+      | Evgeny Semyonov                     |        1882 |                16299 | Needed a fix[2]
+   67 | Jarek Płocki                        |        1982 |                16282 |
+   68 | Sergey Lichack                      |        2105 |                15071 |
+   69 | Alexey Chemichev                    |        2131 |                17971 |
+   70 | Zibx                                |        2165 |                20335 |
+   71 | Evgeny Lukianchikov                 |        2204 |                14319 |
+   72 | berrunder                           |        2372 |                19356 |
+   73 | Alexey Pushnikov                    |        2390 |                19320 |
+   74 | Vyacheslav Bazhinov                 |        2543 |                16444 |
+   75 | Slava Shklyaev                      |        2644 |                23627 |
+   76 | Alex Ku                             |        2714 |                16372 |
+   77 | Kirill Bykov                        |        2976 |                21976 |
+   78 | Aleksei Murashin                    |        3258 |                29899 |
+   79 | Vyacheslav Ryabinin                 |        3305 |                21615 |
+   80 | Alexander Savchuk                   |        3375 |                45047 |
+   81 | Vladimir Osipov                     |        4158 |                24410 |
+   82 | Igor Vladimirovich                  |        4979 |                27130 |
+   83 | nerv                                |        5375 |                38244 |
+   84 | Nikolay Shevlyakov                  |        5931 |                56813 |
+   85 | Dan Revah                           |        6172 |                62275 |
+   86 | Konstantin Boyandin                 |        6970 |                57292 |
+   87 | Nikita Isaev                        |        8280 |                64665 |
+   88 | Ilya Chervonov                      |       10448 |                84935 |
+      | Adam Yahid                          |             |                      |
+      | Aleksandrs Fiļipovs                 |             |                      |
+      | Alex Netkachov                      |             |                      |
+      | Alex Vishnevsky                     |             |                      |
+      | Alex Vishnevsky                     |             |                      | Hors concours
+      | Alexander Baygeldin                 |             |                      |
+      | Alexander Dubovsky                  |             |                      |
+      | Alexander Hasselbach                |             |                      |
+      | Alexander Kazachenko                |             |                      |
+      | Alexander Nurullov                  |             |                      |
+      | Alexander Oryol                     |             |                      |
+      | Alexander Zasim                     |             |                      |
+      | Alexey Alexandrovich                |             |                      |
+      | Alexey Diyachenko                   |             |                      |
+      | Alexey Efremov                      |             |                      |
+      | Alexey Gora                         |             |                      |
+      | Alexey Nichiporchik                 |             |                      |
+      | Alexey Sadovin                      |             |                      |
+      | Alexey Semashkevich                 |             |                      |
+      | Alexey Vedyakov                     |             |                      |
+      | Almaz Mubinov                       |             |                      |
+      | Amir Absalyamov                     |             |                      |
+      | Anatoly                             |             |                      |
+      | Andrey Grankin                      |             |                      |
+      | Andrey Kostakov                     |             |                      |
+      | Andrey Kuznetsov                    |             |                      |
+      | Andrey Saponenko                    |             |                      |
+      | Andrey Solodovnikov                 |             |                      |
+      | Anton Ivakin                        |             |                      |
+      | Anton Podkuyko                      |             |                      |
+      | Anton Vashurkin                     |             |                      |
+      | Artem Kudryavtsev                   |             |                      |
+      | Artem Mitloshuk                     |             |                      |
+      | Arthur Khusaenov                    |             |                      |
+      | Arthur Okeke                        |             |                      |
+      | Bilik Sandanov                      |             |                      |
+      | Black Knight                        |             |                      |
+      | Daniel Shir                         |             |                      |
+      | Danil Baibak                        |             |                      |
+      | Denis Bogomoltsev                   |             |                      |
+      | Denis Karavayev                     |             |                      |
+      | Denis Maslov                        |             |                      |
+      | Denis Zakharov                      |             |                      |
+      | Dilshod Samatov                     |             |                      |
+      | disamis                             |             |                      |
+      | Dizzy D                             |             |                      |
+      | Dmitry Fedoryak                     |             |                      |
+      | Dmitry Kurochkin                    |             |                      |
+      | Dmitry Petrov                       |             |                      |
+      | Dmitry Poddubniy                    |             |                      |
+      | Dmitry Soloviev                     |             |                      |
+      | Dmitry Tarasenko                    |             |                      |
+      | Dzmitry Ulasiankou                  |             |                      |
+      | Elshad Shirinov                     |             |                      |
+      | Evgeny Frolov                       |             |                      |
+      | Evgeny Khramkov                     |             |                      |
+      | Evgeny Olonov                       |             |                      |
+      | Evgeny Shiryaev                     |             |                      |
+      | fb5813a09c0f95242cb                 |             |                      |
+      | Grigory Alexeev                     |             |                      |
+      | Grigory Plotnikov                   |             |                      |
+      | Guy Brukhis                         |             |                      |
+      | Guy Rapaport                        |             |                      |
+      | Haim Kom                            |             |                      |
+      | happymarmoset                       |             |                      |
+      | Hongliang Wang                      |             |                      |
+      | Ice Kibitzer                        |             |                      |
+      | Ido Ran                             |             |                      |
+      | Igal Miroshnichenko                 |             |                      |
+      | Igor Malanyk                        |             |                      |
+      | Ihor Barakaiev and Dmitry Karaush   |             |                      |
+      | Ilya Gelman                         |             |                      |
+      | Ilya Kirichek                       |             |                      | Cheating[3]
+      | Itay Komemy                         |             |                      |
+      | Ivan Lukashov                       |             |                      |
+      | Ivan Maltsev                        |             |                      |
+      | Ivan Nikitin                        |             |                      |
+      | Ivan Saloid                         |             |                      |
+      | Ivan Zakharchenko                   |             |                      |
+      | Jean-Philippe Gauthier              |             |                      |
+      | jsmeister                           |             |                      |
+      | Kazim                               |             |                      |
+      | Kedem Diamant                       |             |                      |
+      | Kirill Yakovlev                     |             |                      |
+      | Kirill Yakovlev                     |             |                      | Hors concours
+      | Konstantin Petryaev                 |             |                      |
+      | Kwek Jing Yang                      |             |                      |
+      | Lee Elenbaas                        |             |                      |
+      | Leonid Kuznetsov                    |             |                      |
+      | madshall                            |             |                      |
+      | MakarovEm                           |             |                      |
+      | Maksim Razumenko                    |             |                      |
+      | Mark Gubarev                        |             |                      |
+      | Max Leizerovich                     |             |                      |
+      | Maxim Khoruzhko                     |             |                      |
+      | Moshe Revah                         |             |                      |
+      | Muthuswami Lakshminarayanan Susheel |             |                      | Hors concours
+      | mycodef                             |             |                      |
+      | Nikita Molostvov                    |             |                      |
+      | Nikita Polevoy                      |             |                      |
+      | Nikolay Olonov                      |             |                      |
+      | Nurguly Ashyrov                     |             |                      |
+      | Oleg Panchenko                      |             |                      |
+      | Oleh Tsiroh                         |             |                      |
+      | Oleksandr Antonyuk                  |             |                      |
+      | Ouanalao                            |             |                      |
+      | Oz GabsoZ                           |             |                      |
+      | Oz Shapira                          |             |                      |
+      | Pavel Pogodaev                      |             |                      |
+      | Pavel Polyakov                      |             |                      |
+      | Pavel Tomsha                        |             |                      |
+      | Petr Shalkov                        |             |                      |
+      | Pham Vu Tuan                        |             |                      |
+      | poluyanov                           |             |                      |
+      | Ptax                                |             |                      |
+      | qeled                               |             |                      |
+      | Raoul Foaleng                       |             |                      |
+      | Roman Timashev                      |             |                      |
+      | Rostislav Galkin                    |             |                      |
+      | Ruslan Bekenev                      |             |                      |
+      | Ruslan Koptev                       |             |                      |
+      | Sashko Matviychuk                   |             |                      |
+      | Sergey Kluchkovsky                  |             |                      |
+      | Sergey Serebryakov                  |             |                      |
+      | Sergey Tolok                        |             |                      |
+      | Sergii Iakymov                      |             |                      |
+      | Sergius Galjuk                      |             |                      |
+      | Serhiy Mitrovtsiy                   |             |                      |
+      | serviceman                          |             |                      |
+      | Shantanu Gupta                      |             |                      |
+      | Stas Vasilyev                       |             |                      |
+      | Stepan Pupkin                       |             |                      |
+      | taitulism                           |             |                      |
+      | Tan Ying Hao                        |             |                      |
+      | Taras Ozarko                        |             |                      |
+      | Timophey Nakhai                     |             |                      |
+      | Victor Follet                       |             |                      |
+      | Vitali Falileev                     |             |                      |
+      | Vitaliy (vint)                      |             |                      |
+      | Vitaliy Sunny                       |             |                      |
+      | Vitaly Domnikov                     |             |                      |
+      | Vladimir Menshakov                  |             |                      |
+      | Vladimir Prikhozhenko               |             |                      |
+      | Volodymyr Valkiv                    |             |                      |
+      | Xawn Tan                            |             |                      |
+      | Yair Haimovitch                     |             |                      |
+      | Yury Loskot                         |             |                      |
+
+### Remarks
+
+[1] We disqualified one participant for trying to fool the test framework. Check their solution if you want to see how. Interestingly, the submission still wasn't the fastest.
+
+[2] The submission passed correctness tests after adding a proper export of the `filter` function. The entry was therefore not assigned a rank in the final standings.
+
+[3] This solution passed correctness tests but produced wrong output on the performance test. When we looked at its source code, it became apparent why the program was named `volkswagen.js`. The big players are doing it, so it might become an industry standard!
+
+## Stay tuned
+
+More programming challenges to follow!
