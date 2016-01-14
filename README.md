@@ -1,4 +1,4 @@
-# Hola JS Challenge Winter 2015 (Mail Filtering Engine): Initial Results
+# Hola JS Challenge Winter 2015 (Mail Filtering Engine): Final Results
 
 In winter 2015, we held a [programming contest](http://hola.org/challenge_mail_filter). Thanks to all who participated!
 
