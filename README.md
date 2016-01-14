@@ -79,7 +79,7 @@ We also received criticism on some other aspects of our performance testing, whi
 
 ## Final standings
 
-The performance scores in this table are the best times out of 10 runs, in milliseconds. Solutions for which there isn't a performance score in the table, failed correctness tests or produced wrong results on the performance test. The final standings are ranked by the performance score on the `large` test (100,000 messages); the results of the `xlarge` test are included as well for your information.
+The performance scores in this table are the best times out of 10 runs, in milliseconds. Solutions for which there isn't a performance score in the table, failed correctness tests or produced wrong results on the performance test. The final standings are ranked by the performance score on the `large` test (100,000 messages); the results of the `xlarge` test (800,000) are included as well for your information.
 
 We are sorry that we had to revise the final standings. Our apologies to the originally announced winners (whose solutions are undoubtedly very good).
 
