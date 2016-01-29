@@ -202,7 +202,6 @@ Place | Name                                | Performance | Performance (xlarge)
       | Alexander Dubovsky                  |             |                      |
       | Alexander Hasselbach                |             |                      |
       | Alexander Kazachenko                |             |                      |
-      | Alexander Nurullov                  |             |                      |
       | Alexander Oryol                     |             |                      |
       | Alexander Zasim                     |             |                      |
       | Alexey Alexandrovich                |             |                      |
@@ -291,6 +290,7 @@ Place | Name                                | Performance | Performance (xlarge)
       | Moshe Revah                         |             |                      |
       | Muthuswami Lakshminarayanan Susheel |             |                      | Hors concours
       | mycodef                             |             |                      |
+      | NAR                                 |             |                      |
       | Nikita Molostvov                    |             |                      |
       | Nikita Polevoy                      |             |                      |
       | Nikolay Olonov                      |             |                      |
