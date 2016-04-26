@@ -1,4 +1,4 @@
-# Hola JS Challenge Winter 2015
+# <img src=https://hola.org/img/hola_clean.png> Hola JS Challenge Winter 2015
 ## Mail Filtering Engine: Final Results
 
 In winter 2015, we held a [programming contest](docs/challenge.md). Thanks to all who participated!
