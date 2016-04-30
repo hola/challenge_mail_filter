@@ -345,5 +345,13 @@ Place | Name                                | Performance | Performance (xlarge)
 ## More about Hola!
 Hola was founded by serial entrepreneurs with the goal of making a better Internet. Hola's overlay P2P network for HTTP has disrupted the consumer VPN and online business intelligence markets, and is on its way to disrupting the $5B/yr CDN market. Hola is well funded and profitable ([read more about us](http://hola.org/about)).
 
+### How to run tests yourself
+
+```
+cd tests
+npm install
+./generate_large_test.js large
+./test_all.js
+```
 ## Stay tuned
 More programming challenges to follow!
