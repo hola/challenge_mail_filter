@@ -78,7 +78,9 @@ function check_field(from_to, rule, is_rule_re, part)
 {
     if (!is_rule_re) return from_to === rule
 
-    if (part && from_to.indexOf(part) !== -1) return rule.test(from_to)
+    if (part && from_to.indexOf(part) === -1) return
+
+    return rule.test(from_to)
 }
 
 //------------------------------------------------------------------------------
@@ -132,6 +134,8 @@ function extend_rule(name, rule)
 function hide_from_re(rule)
 {
     return rule
+        .replace(/\\/g, '\\\\')
+
         .replace(/\(/g, '_(_')
         .replace(/\)/g, '(\\))')
         .replace(/(_\(_)/g, '(\\()')
