@@ -91,7 +91,7 @@ var pattern2regexp = function(pattern) {
 	var reStr =
 		'^' + pattern
 			// TODO check what symbols can actually be in email
-			.replace(/([.\)\(\]\[\+])/g, '\\$1')
+			.replace(/[-\/\\^$+.()|[\]{}]/g, '\\$&')
 			.replace(/\*/g, '.*')
 			.replace(/\?/g, '.') +
 		'$';
