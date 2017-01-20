@@ -32,7 +32,6 @@ module.exports = function filter(m, r) {
     var context = {counter: counter, flag: 0, toc: 0, frc: 0, result: ra};
     var tc = new Map();
     var fc = new Map();
-    fc.clear();
     for (var i = 0; i < keys.length; i++) {
         context.counter = counter;
         var t_entry = tc.get(m[keys[i]].to);
@@ -95,7 +94,7 @@ module.exports = function filter(m, r) {
                                 m[keys[i]][--context.counter] = r[j].action;
                             case 1:
                             {
-                                if (ra[j] != defBuf[j])
+                                if (ra[j] != defBuf[j] && defBuf[j] != 1)
                                     f_entry.a[--context.frc] = j;
                             }
                         }
@@ -107,7 +106,7 @@ module.exports = function filter(m, r) {
                             case 3:
                             case 1:
                             {
-                                if (ra[j] != defBuf[j])
+                                if (ra[j] != defBuf[j] && defBuf[j] != 1)
                                     f_entry.a[--context.frc] = j;
                             }
                         }
